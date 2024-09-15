@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/TaskManagerApp.git'
+                git 'https://github.com/Panku51/whizlabs-jenkins.git'
             }
         }
         stage('Build') {
